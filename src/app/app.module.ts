@@ -4,6 +4,7 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { StartComponent } from "./start/start.component";
+import { HomeComponent } from "./home/home.component";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { StartComponent } from "./start/start.component";
     ],
     declarations: [
         AppComponent,
-        StartComponent
+        StartComponent,
+        HomeComponent
     ],
     providers: [],
     schemas: [

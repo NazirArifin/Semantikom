@@ -1,3 +1,27 @@
-.start {
+.title {
+  text-align: center;
+  font-family: "Rubik", "Rubik-Medium";
+  font-size: 22;
+  line-height: 27;
+  color: #554E8F;
+  margin-bottom: 15;
+}
 
+.info {
+  text-align: center;
+  white-space: normal;
+  font-family: "OpenSans", "OpenSans-Semibold";
+  font-size: 17;
+  color: #82A0B7;
+  padding-left: 25;
+  padding-right: 25;
+}
+
+.logo {
+  align-items: center;
+  width: 210;
+}
+
+.start {
+  width: 310;
 }

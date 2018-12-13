@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Page } from 'tns-core-modules/ui/page/page';
+import { RouterExtensions } from 'nativescript-angular/router';
 
 @Component({
 	moduleId: module.id,
@@ -9,7 +11,16 @@ import { Component, OnInit } from '@angular/core';
 
 export class StartComponent implements OnInit {
 
-	constructor() { }
+	constructor(
+		page: Page,
+		private router: RouterExtensions
+	) {
+		page.actionBarHidden = true;
+	}
+
+	enter() {
+		this.router.navigate(['/home'], { clearHistory: true });
+	}
 
 	ngOnInit() { }
 }

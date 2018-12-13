@@ -1,3 +1,10 @@
-<ActionBar title="Workshop Semantikom"></ActionBar>
-
-<Label class="start" text="Selamat Datang di Workshop Semantikom"></Label>
+<GridLayout rows="*, auto, auto">
+  <Image row="0" src="~/images/onboarding1.png" class="logo"></Image>
+  <StackLayout row="1">
+    <Label text="Reminders made simple" class="title"></Label>
+    <Label text="Lorem ipsum dolor sit amet consectetur adipisicing elit molestiae provident erat in blandit luctus" class="info"></Label>
+  </StackLayout>
+  <StackLayout row="2">
+    <Image src="~/images/onboarding2.png" (tap)="enter()" class="start"></Image>
+  </StackLayout>
+</GridLayout>
