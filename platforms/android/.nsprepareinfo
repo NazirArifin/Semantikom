@@ -1,0 +1,26 @@
+{
+	"time": "Wed Dec 12 2018 11:48:38 GMT+0700 (SE Asia Standard Time)",
+	"nativePlatformStatus": "1",
+	"bundle": false,
+	"release": false,
+	"changesRequireBuild": false,
+	"projectFileHash": "23749e41e49bbdd4d273556349f4057438f12da23db14c5be279f6dd32ac152e",
+	"changesRequireBuildTime": "Wed Dec 12 2018 11:23:23 GMT+0700 (SE Asia Standard Time)",
+	"appFilesHashes": {
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app.component.html": "611325f92aae874130d34a7621cbbd3eabd48aac",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app-routing.module.js": "c461d5633b6d1bdb2791d3c13ebf25c85ee03550",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app-routing.module.ts": "01732e969fe399fa621ff9cd80015e3840e81865",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app.component.ts": "6f32091fe48b1ec7bcb22035237249748b41a9e6",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app.component.js": "dae7184867d58cb885896d482da7df8d1c937166",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app.module.js": "4d3110ff46a7208da17a0edf0408d734f7b0c2fd",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\start\\start.component.css": "fb15e6bfe0f7e423dc43be5c8865508e1336e2b5",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\app.module.ts": "bd47c50971005a78eefa51bc2c6d6eb7a29c153c",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\start\\start.component.html": "d5e7d9d3f5899d3303683f3a9166e84cc5c8d71f",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\start\\start.component.ts": "bd73c9c1543c9fb826c9a9abe26ef864c28eb5fb",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app\\start\\start.component.js": "4e28b88005b21ce9e8e6b16f7f4c59597ef55ff2",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\app.css": "24f81ff5c41798f4671899fdc9d85993fbf27059",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\main.ts": "f91f1f60268600613f58424b2be0dc632a51a3d9",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\main.js": "c9a61e3d67cd0754356e8296f8375dd6a25e2b0d",
+		"D:\\Projects\\NativeScript\\WorkShop\\src\\package.json": "62db8f086c6c89608370f1d52d8bcf671ce139db"
+	}
+}
