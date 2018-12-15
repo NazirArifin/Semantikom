@@ -6,13 +6,23 @@
       
       <header></header>
 
-      <FlexboxLayout justifyContent="center" row="1" alignItems="center">
+      <FlexboxLayout justifyContent="center" row="1" alignItems="center" *ngIf="taskList.length === 0">
         <StackLayout>
           <Image src="~/images/empty.png" class="logo"></Image>
           <Label text="No tasks" class="title"></Label>
           <Label text="You have no task to do" class="info"></Label>
         </StackLayout>
       </FlexboxLayout>
+
+      <StackLayout row="1" class="list-container" *ngIf="taskList.length > 0">
+        <StackLayout *ngFor="let task of taskList">
+          <Label [text]="task.date" class="task-date"></Label>
+          <GridLayout columns="auto, auto" *ngFor="let data of task.data" class="task-container">
+            <StackLayout class="task-marker" col="0"></StackLayout>
+            <Label text="task.label" col="1"></Label>
+          </GridLayout>
+        </StackLayout>
+      </StackLayout>
 
     </GridLayout>
   </ScrollView>

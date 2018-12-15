@@ -37,8 +37,8 @@ export class AddComponent implements OnInit {
 	}
 
 	cancel() {
-		this.router.navigate(['/home']);
-		// this.router.back();
+		// this.router.navigate(['/home']);
+		this.router.back();
 	}
 
 	saveTask() {

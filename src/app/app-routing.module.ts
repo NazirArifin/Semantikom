@@ -6,7 +6,7 @@ import { HomeComponent } from "./home/home.component";
 import { AddComponent } from "./add/add.component";
 
 const routes: Routes = [
-    { path: "", redirectTo: "/home", pathMatch: "full" },
+    { path: "", redirectTo: "/start", pathMatch: "full" },
     { path: "start", component: StartComponent },
     { path: "home", component: HomeComponent },
     { path: "add", component: AddComponent }
