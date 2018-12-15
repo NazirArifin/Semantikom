@@ -1,29 +1,35 @@
-# NativeScript Angular Template
+# Semantikom 2018
 
-This template creates a "Hello, world" NativeScript app using TypeScript and Angular.
 
-You can create a new app that uses this template with either the `--template` option.
+## Persiapan
+Untuk menggunakan project ini Anda harus menginstall:
 
-```
-tns create my-app-name --template tns-template-hello-world-ng
-```
+1. NodeJS dan kemudian install __nativescript__ dengan npm melalui perintah:
 
-Or the `--ng` shorthand.
-
-```
-tns create my-app-name --ng
+```sh
+npm install -g nativescript
 ```
 
-> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world-ng).
+2. Install aplikasi __NativeScript Playground__ dan __NativeScript Preview__ dengan perangkat Android Anda.
 
-If you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:
+2. Clone atau download project ini dan kemudian jalankan perintah:
+
+```sh
+npm install
+```
+
+3. Untuk melihat hasil "__akhir__" Anda harus berpindah ke _branch_ __work__ dengan perintah git:
 
 ```
-tns create my-app-name --template https://github.com/NativeScript/template-hello-world-ng.git#master
+git checkout work
 ```
 
-**NB:** Please, have in mind that the master branch may refer to dependencies that are not on NPM yet!
+## Menjalankan Aplikasi
 
-# Issues
+4. Gunakan perintah:
 
-Issues related to `template-hello-world-ng` template should be logged in the https://github.com/NativeScript/NativeScript repository.
+```
+tns preview
+```
+
+5. Buka aplikasi NativeScript Playground dan scan QR Code yang muncul di windows console.
