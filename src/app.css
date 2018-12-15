@@ -14,3 +14,22 @@ refer to http://docs.nativescript.org/ui/theme.
 Page {
   background-color: #F9FCFF;
 }
+
+.bg-personal {
+  background-color: #F9C229;
+}
+.bg-work {
+  background-color: #1ED102;
+}
+.bg-meeting {
+  background-color: #D10263;
+}
+.bg-shopping {
+  background-color: #EC6C0B;
+}
+.bg-party {
+  background-color: #09ACCE;
+}
+.bg-study {
+  background-color: #BF0080;
+}

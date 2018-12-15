@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Page } from 'tns-core-modules/ui/page/page';
+import { RouterExtensions } from 'nativescript-angular/router';
 
 @Component({
 	moduleId: module.id,
@@ -11,9 +12,14 @@ import { Page } from 'tns-core-modules/ui/page/page';
 export class HomeComponent implements OnInit {
 
 	constructor(
-		page: Page
+		page: Page,
+		private router: RouterExtensions
 	) {
 		page.actionBarHidden = true;
+	}
+
+	add() {
+		this.router.navigate(['/add']);
 	}
 
 	ngOnInit() { }

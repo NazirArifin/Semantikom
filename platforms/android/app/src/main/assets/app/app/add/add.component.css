@@ -1,0 +1,91 @@
+.dark-bg {
+  height: 120;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.ellipse-bg {
+  height: 58;
+  background-image: url('~/images/ellipse.png');
+  background-size: contain;
+  margin-top: 126;
+}
+
+.add-btn {
+  width: 80;
+}
+
+.form-title {
+  margin-top: 8;
+  text-align: center;
+  font-family: "Rubik", "Rubik-Medium";
+  font-size: 13;
+  color: #404040;
+}
+
+.input {
+  border-bottom-color: #CFCFCF;
+  border-bottom-style: solid;
+  border-bottom-width: 1;
+  margin-left: 20;
+  margin-right: 20;
+  padding-bottom: 20;
+  font-family: "Rubik", "Rubik-Regular";
+  font-size: 20;
+}
+
+.smallcircle {
+  width: 10;
+  height: 10;
+  margin-right: 5;
+  border-radius: 5;
+}
+
+.smalllabel {
+  font-family: "Rubik", "Rubik-Regular";
+  font-size: 15;
+  color: #8E8E8E;
+  margin-right: 15;
+  margin-top: 0;
+}
+
+.smallbtn {
+  font-family: "Rubik", "Rubik-Regular";
+  font-size: 15;
+  color: #ffffff;
+  margin-right: 15;
+  margin-top: -5;
+  height: 40;
+  text-transform: capitalize;
+}
+
+.date-label {
+  font-family: "Rubik", "Rubik-Regular";
+  font-size: 13;
+  margin-left: 20;
+  margin-right: 60;
+  color: #404040;
+}
+
+.date-input {
+  font-family: "Rubik", "Rubik-Medium";
+  font-size: 13;
+  margin-left: 20;
+  color: #404040;
+  margin-top: 20;
+}
+
+.arrow {
+  border-color: #404040;
+  border-left-style: solid;
+  border-left-width: 2;
+  border-bottom-style: solid;
+  border-bottom-width: 2;
+  height: 7;
+  width: 7;
+  rotate: -45deg;
+}
+
+.add-btn {
+  width: 323;
+  margin-top: 50;
+}

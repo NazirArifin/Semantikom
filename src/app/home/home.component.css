@@ -1,64 +1,11 @@
-.header-bg {
-  min-height: 106;
-  background: linear-gradient(to top left, #81C7F5 50%, #3867D5 100%);
-}
-
-.header-circle-1 {
-  width: 211;
-  height: 211;
-  border-radius: 106;
-  background-color: rgba(255, 255, 255, 0.1);
-  top: -90;
-  left: -90;
-}
-
-.header-circle-2 {
-  width: 93;
-  height: 93;
-  border-radius: 47;
-  background-color: rgba(255, 255, 255, 0.2);
-  top: -20;
-  left: 100;
-}
-
-.header-data {
-  margin-top: 30;
-}
-
-.header-text {
-  margin-top: 15;
-}
-
-.header-title {
-  font-size: 18;
-}
-.header-info {
-  font-size: 11;
-}
-
-.header-title, .header-info {
-  color: #ffffff;
-  font-family: 'Rubick', 'Rubik-Regular';
-  margin-left: 20;
-}
-
-.red {
-  background-color: red;
-}
-
 .logo {
   align-items: center;
   width: 110;
 }
 
-.photo {
-  width: 110;
-  top: -15;
-}
-
 .menu {
   background-image: url('~/images/menu-bg.png');
-  background-color: transparent;
+  background-color: #ffffff;
   background-repeat: repeat-x;
   background-position: 0 -23;
 }

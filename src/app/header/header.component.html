@@ -1,0 +1,25 @@
+<GridLayout class="header-bg" row="0">
+  <GridLayout rows="auto">
+    <GridLayout row="0" columns="*, *">
+      <AbsoluteLayout col="0">
+        <StackLayout class="header-circle-1"></StackLayout>
+      </AbsoluteLayout>
+      <FlexboxLayout col="1" justifyContent="flex-end" flexDirection="row">
+        <AbsoluteLayout>
+          <StackLayout class="header-circle-2"></StackLayout>
+        </AbsoluteLayout>
+      </FlexboxLayout>
+    </GridLayout>
+
+    <GridLayout row="0" columns="*, auto" class="header-data">
+      <StackLayout col="0" class="header-text">
+        <Label text="Hello Brenda!" class="header-title"></Label>
+        <Label text="Today you have no task" class="header-info"></Label>
+      </StackLayout>
+      <AbsoluteLayout col="1">
+        <Image src="~/images/photo.png" class="photo"></Image>
+      </AbsoluteLayout>
+    </GridLayout>
+
+  </GridLayout>
+</GridLayout>

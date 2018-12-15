@@ -1,0 +1,47 @@
+<GridLayout rows="*">
+  <FlexboxLayout row="0" flexDirection="column" justifyContent="flex-start">
+    <header></header>
+  </FlexboxLayout>
+
+  <GridLayout rows="120, *" row="0">
+    <StackLayout class="dark-bg" row="0"></StackLayout>
+    <StackLayout row="0" class="ellipse-bg"></StackLayout>
+    
+    <StackLayout row="1" backgroundColor="#ffffff" class="form">
+      <Label text="Add new task" class="form-title"></Label>
+      <TextField class="input" [(ngModel)]="taskModel.name" #taskName></TextField>
+      
+      <ScrollView orientation="horizontal">
+        <StackLayout class="input" marginTop="10" orientation="horizontal">
+          
+          <StackLayout orientation="horizontal" *ngFor="let category of categories">
+            <Button class="smallbtn bg-{{category.label}}" [text]="category.label" *ngIf="category.label === taskModel.category"></Button>
+            
+            <StackLayout orientation="horizontal" *ngIf="category.label !== taskModel.category" (tap)="setCategory(category.label)">
+              <StackLayout class="smallcircle bg-{{category.label}}" col="0" dock="top" verticalAlignment="center"></StackLayout>
+              <Label dock="top" [text]="category.label | titlecase" col="1" class="smalllabel" verticalAlignment="center"></Label>
+            </StackLayout>
+          </StackLayout>
+
+        </StackLayout>
+      </ScrollView>
+
+      <StackLayout orientation="horizontal" marginTop="30">
+        <Label text="Choose Date" class="date-label"></Label>
+        <StackLayout class="arrow"></StackLayout>
+      </StackLayout>
+
+      <Label text="16/12/2018 - 12:00" class="date-input"></Label>
+      
+      <Image src="~/images/add-btn.png" class="add-btn" (tap)="saveTask()"></Image>
+    </StackLayout>
+
+  </GridLayout>
+</GridLayout>
+
+<!-- CANCEL REMOVE -->
+<FlexboxLayout justifyContent="flex-start" flexDirection="column">
+  <StackLayout height="105" marginTop="20">
+    <Image src="~/images/remove.png" class="add-btn" (tap)="cancel()"></Image>
+  </StackLayout>
+</FlexboxLayout>
